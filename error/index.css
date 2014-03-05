@@ -1,0 +1,21 @@
+#circle {
+    height:100px;
+    width:100px;
+    background: red;
+    border-radius: 50%;
+    position : relative;
+}
+.branch {
+    height: 20px;
+    width : 70px;
+    background : white;
+    position : absolute;
+    top : 40px;
+    left : 15px;
+}
+#b1 {
+    -webkit-transform: rotate(45deg);
+}
+#b2 {
+    -webkit-transform: rotate(-45deg);
+}
