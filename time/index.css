@@ -1,0 +1,33 @@
+body {
+    background: black;
+}
+
+#calendar {
+    width: 518px;
+    height: 264px;
+    border: 1px solid black;
+    padding: 1px;
+    background: gray;
+}
+
+.day {
+    width: 70px;
+    height: 30px;
+    border: 1px solid black;
+    float: left;
+    margin: 1px;
+    background: darkgray;
+    padding-top: 10px;
+    text-align: center;
+    color: #333;
+}
+
+.day.code {
+    padding-top: 0px;
+    height: 40px;
+    background: lightgray;
+}
+
+#today {
+    background: orange;
+}
